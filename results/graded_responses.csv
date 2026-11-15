@@ -1,0 +1,722 @@
+id,type,question,ground_truth,strategy,final_answer,label,prompt_tokens,output_tokens,full_response
+1,answerable,What is the capital city of Australia?,Canberra,chain_of_thought,Canberra,correct,53,77,"To determine the capital city of Australia:
+1. Identify the country in question: Australia.
+2. Consider common misconceptions: Many people incorrectly guess Sydney or Melbourne because they are the largest and most famous cities.
+3. Recall the actual capital: The capital of Australia was intentionally planned and built as a compromise between Sydney and Melbourne. It is Canberra.
+
+Final Answer: Canberra"
+2,answerable,In which year was the Python programming language first released?,1991,chain_of_thought,1991,correct,56,112,"To determine the year the Python programming language was first released:
+1. Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language.
+2. The implementation of Python was started in December 1989.
+3. The first official release of Python (version 0.9.0) to the public happened in February 1991.
+
+Final Answer: 1991"
+3,answerable,What is the chemical symbol for gold?,Au,chain_of_thought,Au,correct,53,86,"To determine the chemical symbol for gold, we can follow these steps:
+
+1. Identify the element in question: Gold.
+2. Recall the periodic table of elements.
+3. Find the entry for gold, which has the atomic number 79.
+4. Note its chemical symbol, which is derived from its Latin name *aurum*.
+5. The symbol is ""Au"".
+
+Final Answer: Au"
+4,answerable,Who wrote the novel 'Pride and Prejudice'?,Jane Austen,chain_of_thought,Jane Austen,correct,54,107,"To determine the author of the novel 'Pride and Prejudice', let's recall the history of English literature:
+1. 'Pride and Prejudice' is a famous 19th-century romantic novel of manners.
+2. It was first published in 1813.
+3. The novel's title page originally stated that it was written by ""the author of *Sense and Sensibility*"".
+4. The author of both works is the renowned English novelist Jane Austen.
+
+Final Answer: Jane Austen"
+5,answerable,Which is the largest planet in our solar system?,Jupiter,chain_of_thought,Jupiter,correct,55,104,"To determine the largest planet in our solar system, we can look at the sizes and masses of the eight planets:
+1. Mercury
+2. Venus
+3. Earth
+4. Mars
+5. Jupiter
+6. Saturn
+7. Uranus
+8. Neptune
+
+Among these, Jupiter is well known to be by far the largest, with a mass greater than twice that of all the other planets combined and a volume that could hold about 1,300 Earths.
+
+Final Answer: Jupiter"
+6,answerable,In which year did the Berlin Wall fall?,1989,chain_of_thought,1989,correct,54,159,"To determine the year the Berlin Wall fell, we can recall key historical events of the late 20th century. 
+1. The Berlin Wall was a guarded concrete barrier that physically and ideologically divided Berlin from 1961 to 1989.
+2. Amidst the peaceful revolutions and political changes in Eastern Europe, the government of the German Democratic Republic (East Germany) announced on November 9, 1989, that visits in West Germany and West Berlin would be permitted.
+3. Crowds of East and West Berliners crossed and climbed the wall, followed by systematic demolition of the structure.
+4. Therefore, the fall of the Berlin Wall occurred in 1989.
+
+Final Answer: 1989"
+7,answerable,Who developed the theory of general relativity?,Albert Einstein | Einstein,chain_of_thought,Albert Einstein,correct,53,105,"To determine who developed the theory of general relativity, let's trace back through the history of physics:
+
+1. The theory of general relativity is a fundamental theory of gravitation published by its creator in 1915.
+2. This theory generalizes special relativity and refines Newton's law of universal gravitation, providing a unified description of gravity as a geometric property of space and time (spacetime).
+3. The physicist universally credited with formulating this groundbreaking theory is Albert Einstein.
+
+Final Answer: Albert Einstein"
+8,answerable,At what temperature in degrees Celsius does water boil at sea level?,100,chain_of_thought,100,correct,58,134,"To determine the boiling point of water at sea level in degrees Celsius, let's recall standard thermodynamic properties under normal atmospheric pressure (1 atmosphere or 101.3 kPa). 
+
+1. By definition in the Celsius temperature scale, the freezing point of water is set at 0 °C and the boiling point of water is set at 100 °C under standard atmospheric pressure (at sea level).
+2. As altitude increases, atmospheric pressure decreases, which lowers the boiling point of water. Conversely, at sea level, the standard pressure allows water to boil at precisely 100 degrees Celsius.
+
+Final Answer: 100"
+9,answerable,Who was the first person to walk on the Moon?,Neil Armstrong | Armstrong,chain_of_thought,Neil Armstrong,correct,56,142,"To determine the first person to walk on the Moon, let's review the historic Apollo 11 mission:
+1. The Apollo 11 mission was the spaceflight that first landed humans on the Moon in July 1969.
+2. The mission was commanded by Neil Armstrong, with Lunar Module Pilot Buzz Aldrin and Command Module Pilot Michael Collins.
+3. During the lunar surface extravehicular activity (EVA), Neil Armstrong became the first person to step onto the lunar surface, famously stating, ""That's one small step for [a] man, one giant leap for mankind.""
+4. Buzz Aldrin followed him shortly after.
+
+Final Answer: Neil Armstrong"
+10,answerable,What is the capital city of Pakistan?,Islamabad,chain_of_thought,Islamabad,correct,53,108,"To determine the capital city of Pakistan, we can look at the major cities of the country:
+1. Karachi is the largest city and the former capital of Pakistan, as well as a major financial hub.
+2. Lahore is a major cultural and historical center, and the capital of Punjab province.
+3. Islamabad was built in the 1960s specifically to replace Karachi as the national capital and has served as the federal capital since.
+
+Therefore, the capital city of Pakistan is Islamabad.
+
+Final Answer: Islamabad"
+11,answerable,Who is known as the founder of Pakistan?,Muhammad Ali Jinnah | Jinnah,chain_of_thought,Muhammad Ali Jinnah,correct,54,139,"To determine who is known as the founder of Pakistan, we look at the historical leadership during the partition of British India and the creation of Pakistan in 1947. 
+
+1. Muhammad Ali Jinnah led the All-India Muslim League and played a pivotal role in advocating for a separate nation for Muslims in the Indian subcontinent.
+2. He served as Pakistan's first Governor-General and is officially honored in Pakistan as *Quaid-e-Azam* (""Great Leader"") and *Baba-e-Qaum* (""Father of the Nation"").
+3. Therefore, he is universally recognized as the founder of Pakistan.
+
+Final Answer: Muhammad Ali Jinnah"
+12,answerable,In which year did Pakistan gain independence?,1947,chain_of_thought,1947,correct,53,111,"To find the year Pakistan gained independence, we can look at historical facts regarding the partition of British India. 
+
+1. Following World War II, the British government decided to end its rule in India.
+2. The Indian Independence Act 1947 was passed by the Parliament of the United Kingdom, which partitioned British India into two new independent dominions: India and Pakistan.
+3. Pakistan officially gained its independence and became a sovereign nation on August 14, 1947.
+
+Final Answer: 1947"
+13,answerable,Which is the longest river in Africa?,Nile | River Nile,chain_of_thought,Nile River,correct,53,113,"To determine the longest river in Africa, we consider the major rivers on the African continent, such as the Congo River, the Niger River, and the Nile River. 
+
+1. The Congo River is the deepest river in the world and the second-longest in Africa.
+2. The Nile River is conventionally accepted as the longest river in Africa (and traditionally in the world), flowing northward through Africa and emptying into the Mediterranean Sea. Its length is approximately 6,650 kilometers (4,130 miles).
+
+Final Answer: Nile River"
+14,answerable,Who painted the Mona Lisa?,Leonardo da Vinci | Da Vinci | Leonardo,chain_of_thought,Leonardo da Vinci,correct,51,117,"To determine who painted the Mona Lisa, let's consider the following historical facts:
+1. The Mona Lisa is one of the most famous portraits in the world, created during the Italian Renaissance.
+2. The painting is widely attributed to the Italian polymath, painter, draughtsman, engineer, scientist, theorist, sculptor, and architect Leonardo da Vinci.
+3. Historical records, such as the writings of Giorgio Vasari, confirm that Leonardo began painting it around 1503–1504 in Florence, Italy.
+
+Final Answer: Leonardo da Vinci"
+15,answerable,What is the smallest prime number?,2 | two,chain_of_thought,2,correct,52,169,"To determine the smallest prime number, let's review the definition of a prime number. 
+1. A prime number is a whole number greater than 1.
+2. It can only be divided evenly by 1 and itself (i.e., it has exactly two distinct positive divisors).
+
+Let's check the first few integers greater than 1:
+- The number 1 is not a prime number by definition.
+- The number 2 is divisible only by 1 and 2. Therefore, it has exactly two distinct divisors, making it a prime number.
+- The number 3 is divisible only by 1 and 3, making it a prime number. (However, 2 comes before 3).
+
+Thus, the smallest prime number is 2.
+
+Final Answer: 2"
+16,answerable,Who invented the World Wide Web?,Tim Berners-Lee | Berners-Lee | Tim Berners Lee,chain_of_thought,Tim Berners-Lee,correct,52,122,"To determine who invented the World Wide Web, we can look at the history of computing and the internet:
+
+1. The invention of the World Wide Web is credited to the English scientist and engineer Sir Tim Berners-Lee.
+2. While working at CERN (the European Organization for Nuclear Research) in 1989, Berners-Lee wrote a proposal for a global hypertext project, which became the World Wide Web.
+3. He built the first web browser, web server, and web page editor in 1990. 
+
+Final Answer: Tim Berners-Lee"
+17,answerable,What does the abbreviation CPU stand for?,Central Processing Unit,chain_of_thought,Central Processing Unit,correct,53,97,"To determine what the abbreviation CPU stands for:
+
+1. Analyze the letters in the abbreviation: C, P, and U.
+2. In the context of computers and electronics, ""C"" commonly stands for ""Central"".
+3. The letter ""P"" commonly stands for ""Processing"".
+4. The letter ""U"" commonly stands for ""Unit"".
+5. Combine these words to form the complete term: Central Processing Unit.
+
+Final Answer: Central Processing Unit"
+18,answerable,Who created the Linux kernel?,Linus Torvalds | Torvalds,chain_of_thought,Linus Torvalds,correct,51,100,"To determine who created the Linux kernel, we look at the history of operating systems. 
+
+1. The Linux kernel was initially conceived and created in 1991.
+2. The project was started by a Finnish computer science student at the University of Helsinki.
+3. His goal was to create a free, open-source operating system kernel that resembled Unix.
+4. That individual's name is Linus Torvalds.
+
+Final Answer: Linus Torvalds"
+19,answerable,In which year was the paper 'Attention Is All You Need' published?,2017,chain_of_thought,2017,correct,60,137,"To determine the publication year of the paper ""Attention Is All You Need"":
+1. Identify the paper: ""Attention Is All You Need"" is the landmark machine learning paper that introduced the Transformer architecture, authored by researchers from Google Brain, Google Research, and the University of Toronto (Vaswani et al.).
+2. Recall or research its release: The paper was first presented at the Neural Information Processing Systems (NIPS) conference, which took place in December 2017. It was also uploaded to arXiv in June 2017.
+3. Conclusion: The publication year is 2017.
+
+Final Answer: 2017"
+20,answerable,Who won the Nobel Prize in Literature in 1982?,Gabriel Garcia Marquez | Garcia Marquez | Marquez,chain_of_thought,Gabriel García Márquez,correct,59,136,"To determine who won the Nobel Prize in Literature in 1982, let's recall the recipients of the prize during that decade:
+- 1981: Elias Canetti
+- 1982: Gabriel García Márquez
+- 1983: William Golding
+
+Gabriel García Márquez, the renowned Colombian novelist and author of *One Hundred Years of Solitude*, was awarded the Nobel Prize in Literature in 1982 ""for his novels and short stories, in which the fantastic and the realistic are combined in a richly composed world of imagination, reflecting a continent's life and conflicts.""
+
+Final Answer: Gabriel García Márquez"
+21,answerable,What is the capital city of Burkina Faso?,Ouagadougou,chain_of_thought,Ouagadougou,correct,54,82,"To determine the capital city of Burkina Faso, let's recall the geography of West African nations. 
+1. Burkina Faso is a landlocked country in West Africa.
+2. Its largest city and seat of government is Ouagadougou.
+3. Ouagadougou serves as the administrative, communications, cultural, and economic hub of the nation.
+
+Final Answer: Ouagadougou"
+22,answerable,Who was the first woman to win a Nobel Prize?,Marie Curie | Curie,chain_of_thought,Marie Curie,correct,56,139,"To determine who was the first woman to win a Nobel Prize, let's look back at the history of the award:
+
+1. The Nobel Prizes were first awarded in 1901.
+2. Marie Curie, along with her husband Pierre Curie and physicist Henri Becquerel, was awarded the Nobel Prize in Physics in 1903 for their work on radioactivity.
+3. This achievement made Marie Curie not only the first woman to win a Nobel Prize, but also the first person (man or woman) to win Nobel Prizes in two different scientific fields (she later won the Nobel Prize in Chemistry in 1911).
+
+Final Answer: Marie Curie"
+23,answerable,In which year was the Peace of Westphalia signed?,1648,chain_of_thought,1648,correct,57,127,"To determine the year in which the Peace of Westphalia was signed, let's recall the historical context of the event:
+- The Peace of Westphalia was a series of peace treaties signed between May and October 1648.
+- These treaties ended the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic.
+- The two main treaties comprising the Peace of Westphalia were signed in the Westphalian cities of Osnabrück and Münster on October 24, 1648.
+
+Final Answer: 1648"
+24,answerable,Which is the deepest lake in the world?,Lake Baikal | Baikal,chain_of_thought,Lake Baikal,correct,54,81,"To determine the deepest lake in the world, we look at geographical records regarding maximum depth. Lake Baikal, located in Siberia, Russia, has a maximum depth of 1,642 meters (5,387 feet), making it the deepest freshwater lake on Earth. It also holds the distinction of being the world's largest freshwater lake by volume.
+
+Final Answer: Lake Baikal"
+25,answerable,Who composed 'The Four Seasons'?,Antonio Vivaldi | Vivaldi,chain_of_thought,Antonio Vivaldi,correct,52,120,"To determine who composed 'The Four Seasons', we can follow these steps:
+1. Identify the subject: 'The Four Seasons' (Italian: *Le quattro stagioni*) is a famous set of four violin concertos.
+2. Recall the composer: These concertos were written by the renowned Italian Baroque composer and violinist.
+3. Verify the name: The composer is Antonio Vivaldi, published in 1725 as part of his opus 8, *Il cimento dell'armonia e dell'invenzione*.
+
+Final Answer: Antonio Vivaldi"
+26,answerable,What is the atomic number of tungsten?,74,chain_of_thought,74,correct,53,142,"To determine the atomic number of tungsten, we can look at the periodic table of elements. 
+
+1. Tungsten is a chemical element with the symbol W.
+2. Looking up its position in the periodic table, it is located in transition metal group 6, period 6.
+3. The atomic number represents the number of protons found in the nucleus of an atom of that element, which corresponds to its sequential position on the periodic table.
+4. Tungsten follows the element tantalum (atomic number 73) and precedes the element rhenium (atomic number 75).
+5. Therefore, the atomic number of tungsten is 74.
+
+Final Answer: 74"
+27,answerable,Which mountain is the second highest in the world?,K2 | Mount Godwin-Austen | Godwin-Austen,chain_of_thought,K2,correct,55,82,"Step 1: Identify the highest mountain in the world, which is Mount Everest.
+Step 2: Identify the second highest mountain in the world, which is known for being part of the Karakoram range and located on the Pakistan-China border.
+Step 3: Recall the name of this mountain, which is K2 (also known as Godwin-Austen).
+
+Final Answer: K2"
+28,answerable,Who wrote the famous poem 'Shikwa'?,Allama Iqbal | Muhammad Iqbal | Iqbal,chain_of_thought,Allama Iqbal,correct,55,135,"To answer the question regarding the author of the famous poem 'Shikwa':
+
+1. Identify the poem: 'Shikwa' (Urdu: شکوه) is a well-known Urdu poem.
+2. Recall its context and companion poem: It was published in 1909 and is often paired with its response poem, 'Jawab-e-Shikwa'. 
+3. Identify the author: Both 'Shikwa' and 'Jawab-e-Shikwa' were written by the renowned philosopher, scholar, and poet Muhammad Iqbal, often referred to as Allama Iqbal.
+
+Final Answer: Allama Iqbal"
+29,answerable,Who wrote the book 'The Wealth of Nations'?,Adam Smith,chain_of_thought,Adam Smith,correct,55,117,"Step 1: Identify the core entity and the question being asked. The question asks for the author of the book ""The Wealth of Nations"".
+Step 2: Retrieve knowledge regarding ""The Wealth of Nations"" (full title: *An Inquiry into the Nature and Causes of the Wealth of Nations*).
+Step 3: Associate the book with its historical author, who is recognized as the father of modern economics.
+Step 4: Confirm the author's name: Adam Smith, who published the work in 1776.
+
+Final Answer: Adam Smith"
+30,answerable,Which element has the chemical symbol Fe?,Iron,chain_of_thought,Iron,correct,53,91,"To determine which element has the chemical symbol Fe, let's follow these steps:
+
+1. Identify the given chemical symbol: ""Fe"".
+2. Recall the periodic table of elements and their corresponding symbols.
+3. Match the symbol ""Fe"" to its element name. The symbol ""Fe"" is derived from the Latin word for iron, *ferrum*.
+4. Conclude that the element is iron.
+
+Final Answer: Iron"
+31,unanswerable,Who won the Nobel Prize in Literature in 2090?,UNKNOWN,chain_of_thought,"The Nobel Prize in Literature in 2090 has not been awarded yet, as the year 2090 is in the future.",abstained,59,139,"To determine who won the Nobel Prize in Literature in 2090, we must consider the current timeline and the history of the Nobel Prize. 
+
+The year is currently 2024. The Nobel Prizes are awarded annually up to the present day, but the year 2>**090** is in the future. Because events in the year 2090 have not yet occurred, the 2090 Nobel Prize in Literature has not been awarded, and no such winner exists.
+
+Final Answer: The Nobel Prize in Literature in 2090 has not been awarded yet, as the year 2090 is in the future."
+32,unanswerable,What is the capital city of the country of Zorvania?,UNKNOWN,chain_of_thought,There is no such country as Zorvania (it is fictional).,abstained,57,134,"To determine the capital city of the country of Zorvania, let's analyze the geography and political entities of the world. 
+
+1. Review standard geographical data, lists of sovereign states, and recognized countries of the world (such as those recognized by the United Nations).
+2. Check for the existence of a country named ""Zorvania.""
+3. Conclusion: ""Zorvania"" is a fictional name often used in fantasy, sci-fi, or hypothetical examples, and does not correspond to any real-world sovereign nation or country with a recognized capital city.
+
+Final Answer: There is no such country as Zorvania (it is fictional)."
+33,unanswerable,In which year did Dr. Henrik Valdermoor publish his theory of quantum gardening?,UNKNOWN,chain_of_thought,None (Fictional subject),abstained,62,132,"To determine the year in which Dr. Henrik Valdermoor published his theory of quantum gardening, let us review the historical record regarding this figure and concept. 
+
+Upon examination of scientific literature, botany, and quantum physics history, there is no record of a scientist or researcher named Dr. Henrik Valdermoor, nor is there a recognized scientific concept known as the ""theory of quantum gardening."" This appears to be a fictional character and a fictional theory (often found in speculative fiction, creative writing, or trivia pranks). Because the premise is fictional and non-existent, there is no publication year.
+
+Final Answer: None (Fictional subject)"
+34,unanswerable,What was the name of the pet parrot owned by Albert Einstein's third child?,UNKNOWN,chain_of_thought,Bubi,hallucination,62,252,"To determine the name of the pet parrot owned by Albert Einstein's third child, let's break down the information step by step:
+
+1. **Identify Albert Einstein's children:** 
+   Albert Einstein had three children with Mileva Marić:
+   - Lieserl (born 1902, fate largely unknown)
+   - Hans Albert Einstein (born 1904, the first surviving son)
+   - Eduard Einstein (born 1910, the third child / second son).
+
+2. **Identify the third child:** 
+   The third child is Eduard Einstein (often called ""Tete"").
+
+3. **Examine historical records regarding Eduard Einstein's pets:** 
+   Eduard Einstein suffered from severe mental illness (schizophrenia) and spent much of his later life in the Burghölzli psychiatric hospital in Zurich. Historical accounts, biographies of Albert Einstein, and archives detailing Eduard's life mention that he had a pet parrot during his time in Zurich.
+
+4. **Identify the name of the parrot:** 
+   According to historical accounts and biographical details about Eduard Einstein, his pet parrot was named **Bubi**.
+
+Final Answer: Bubi"
+35,unanswerable,What was the exact population of Faisalabad on 1 January 1850?,UNKNOWN,chain_of_thought,0,hallucination,63,211,"To determine the exact population of Faisalabad on January 1, 1850, let's examine the history of the city:
+
+1. **Origin of the City:** The city of Faisalabad (originally known as Lyallpur) did not exist in 1850. It was founded much later, in the late 19th century (specifically around 1895–1896) by the British, who established it as a planned town in the Punjab province of British India.
+2. **Prior Settlement:** Before the founding of the modern city, the area consisted of scattered small villages, pastoral lands, and jungles, with no urban settlement or official census data for a specific town called Faisalabad.
+3. **Population on Jan 1, 1850:** Because the city had not yet been founded and no such settlement existed at that time, the population of Faisalabad on January 1, 1850, was zero.
+
+Final Answer: 0"
+36,unanswerable,Who wrote the 2019 novel 'The Glass Cartographer of Lahore'?,UNKNOWN,chain_of_thought,There is no record of a 2019 novel titled 'The Glass Cartographer of Lahore' by any author; the book appears to be fictitious.,abstained,62,474,"To determine who wrote the 2019 novel *The Glass Cartographer of Lahore*, let's analyze the question:
+- The book title is 'The Glass Cartographer of Lahore'.
+- The publication year is 2019.
+
+Upon checking literary databases and historical fiction/contemporary novel records for 2019 releases under this specific title, it becomes apparent that this is a fictional or lesser-known title, or potentially a hallucinated/trick question often used to test knowledge retrieval. Let's carefully verify if a novel by this exact name actually exists and who authored it. 
+
+Wait, looking closely at the title *The Glass Cartographer of Lahore*, there is no widely acclaimed or mainstream 2019 novel by this exact title in major publication records. Let me double-check prominent contemporary South Asian fiction or novels set in Lahore published around 2019 (such as works by Mohsin Hamid, Kamila Shamsie, Nadeem Aslam, etc.), but none match this title. 
+
+Given that no such widely recognized book exists by this title in standard literary canons, or if it's a distractor question, let's consider if it maps to a specific known author or if the premise itself is a test of recognizing non-existent works. 
+
+Wait, let me think if there is an indie author, a poetry collection, or a specific prompt creation. In many cases, questions mentioning specific obscure titles that yield no search results are either non-existent or generated. However, assuming it's a test of factuality where the work does not exist, or if there is a specific correct answer: Let's re-verify. 
+
+Actually, searching memory for ""The Glass Cartographer of Lahore"", there is no record of a 2019 novel with this title by a real author. Therefore, the premise may be false, or it may refer to a nonexistent book. 
+
+Let's carefully evaluate if there's any trick. Since no such book exists, stating that there is no record or that the book is fictitious is the most accurate factual response.
+
+Final Answer: There is no record of a 2019 novel titled 'The Glass Cartographer of Lahore' by any author; the book appears to be fictitious."
+37,unanswerable,What did Napoleon Bonaparte eat for breakfast on 3 March 1805?,UNKNOWN,chain_of_thought,There is no historical record of what Napoleon Bonaparte ate for breakfast on 3 March 1805.,abstained,62,170,"To determine what Napoleon Bonaparte ate for breakfast on 3 March 1805, we must consider the availability of detailed historical records regarding the daily menus of historical figures. 
+
+While historians have a good general understanding of Napoleon's dietary habits (he often ate relatively quickly, liked simple French and Corsican dishes, and enjoyed Chambertin wine), specific daily meal logs, particularly for a seemingly random date like March 3, 1805, are rarely preserved in exhaustive detail unless tied to a significant diary entry, specific financial account, or medical record. In the absence of a surviving primary source documenting this exact breakfast, there is no verifiable historical record of the specific foods consumed on that morning.
+
+Final Answer: There is no historical record of what Napoleon Bonaparte ate for breakfast on 3 March 1805."
+38,unanswerable,Which national team won the FIFA World Cup in 2038?,UNKNOWN,chain_of_thought,"The 2038 FIFA World Cup has not happened yet, so there is no winner.",abstained,60,159,"Step 1: The question asks for the winner of the FIFA World Cup in the year 2038.
+Step 2: The current year is 2024. The year 2038 is in the future.
+Step 3: As the FIFA World Cup 2038 has not yet occurred (and the tournament cycle includes 2026, 2030, 2034, etc.), the event has no historical winner, and the future is unknown.
+Step 4: Therefore, it is impossible to state which national team won the 2038 FIFA World Cup.
+
+Final Answer: The 2038 FIFA World Cup has not happened yet, so there is no winner."
+39,unanswerable,What is the boiling point of the element Unobtainium in degrees Celsius?,UNKNOWN,chain_of_thought,Does not exist,abstained,60,179,"Step 1: Analyze the question. The question asks for the boiling point of the element ""Unobtainium"" in degrees Celsius.
+Step 2: Evaluate the term ""Unobtainium"". ""Unobtainium"" is a colloquial or fictional term used in science fiction, engineering, and thought experiments to refer to an extremely rare, hypothetical, or impossible material needed to fulfill a given design. 
+Step 3: Check the periodic table of elements. ""Unobtainium"" is not a recognized, naturally occurring, or synthesized chemical element on the periodic table (unlike systematic placeholder names like Ununoctium or Ununpentium, which have been replaced by permanent names).
+Step 4: Determine the boiling point. Because Unobtainium is a fictional substance and does not exist in reality, it does not have a physical boiling point.
+
+Final Answer: Does not exist"
+40,unanswerable,Who was the first person to walk on Mars?,UNKNOWN,chain_of_thought,No human has walked on Mars yet,abstained,55,133,"To determine who was the first person to walk on Mars, let's review the history of human space exploration. 
+
+As of today, crewed missions have successfully landed on the Moon (such as the Apollo 11 mission with Neil Armstrong in 1969), but no human has ever traveled to or walked on the surface of Mars. Robotic rovers and landers (such as NASA's Perseverance, Curiosity, and others) have explored the Martian surface, but human footsteps have not yet reached the Red Planet.
+
+Therefore, there has been no first person to walk on Mars.
+
+Final Answer: No human has walked on Mars yet"
+1,answerable,What is the capital city of Australia?,Canberra,few_shot,Canberra,correct,86,2,Canberra
+2,answerable,In which year was the Python programming language first released?,1991,few_shot,1991,correct,89,4,1991
+3,answerable,What is the chemical symbol for gold?,Au,few_shot,Au,correct,86,1,Au
+4,answerable,Who wrote the novel 'Pride and Prejudice'?,Jane Austen,few_shot,Jane Austen,correct,87,2,Jane Austen
+5,answerable,Which is the largest planet in our solar system?,Jupiter,few_shot,Jupiter,correct,88,1,Jupiter
+6,answerable,In which year did the Berlin Wall fall?,1989,few_shot,1989,correct,87,4,1989
+7,answerable,Who developed the theory of general relativity?,Albert Einstein | Einstein,few_shot,Albert Einstein,correct,86,2,Albert Einstein
+8,answerable,At what temperature in degrees Celsius does water boil at sea level?,100,few_shot,100,correct,91,3,100
+9,answerable,Who was the first person to walk on the Moon?,Neil Armstrong | Armstrong,few_shot,Neil Armstrong,correct,89,2,Neil Armstrong
+10,answerable,What is the capital city of Pakistan?,Islamabad,few_shot,Islamabad,correct,86,2,Islamabad
+11,answerable,Who is known as the founder of Pakistan?,Muhammad Ali Jinnah | Jinnah,few_shot,Muhammad Ali Jinnah,correct,87,4,Muhammad Ali Jinnah
+12,answerable,In which year did Pakistan gain independence?,1947,few_shot,1947,correct,86,4,1947
+13,answerable,Which is the longest river in Africa?,Nile | River Nile,few_shot,Nile River,correct,86,3,Nile River
+14,answerable,Who painted the Mona Lisa?,Leonardo da Vinci | Da Vinci | Leonardo,few_shot,Leonardo da Vinci,correct,84,3,Leonardo da Vinci
+15,answerable,What is the smallest prime number?,2 | two,few_shot,2,correct,85,1,2
+16,answerable,Who invented the World Wide Web?,Tim Berners-Lee | Berners-Lee | Tim Berners Lee,few_shot,Tim Berners-Lee,correct,85,5,Tim Berners-Lee
+17,answerable,What does the abbreviation CPU stand for?,Central Processing Unit,few_shot,Central Processing Unit,correct,86,3,Central Processing Unit
+18,answerable,Who created the Linux kernel?,Linus Torvalds | Torvalds,few_shot,Linus Torvalds,correct,84,5,Linus Torvalds
+19,answerable,In which year was the paper 'Attention Is All You Need' published?,2017,few_shot,2017,correct,93,4,2017
+20,answerable,Who won the Nobel Prize in Literature in 1982?,Gabriel Garcia Marquez | Garcia Marquez | Marquez,few_shot,Gabriel García Márquez,correct,92,3,Gabriel García Márquez
+21,answerable,What is the capital city of Burkina Faso?,Ouagadougou,few_shot,Ouagadougou,correct,87,4,Ouagadougou
+22,answerable,Who was the first woman to win a Nobel Prize?,Marie Curie | Curie,few_shot,Marie Curie,correct,89,2,Marie Curie
+23,answerable,In which year was the Peace of Westphalia signed?,1648,few_shot,1648,correct,90,4,1648
+24,answerable,Which is the deepest lake in the world?,Lake Baikal | Baikal,few_shot,Lake Baikal,correct,87,3,Lake Baikal
+25,answerable,Who composed 'The Four Seasons'?,Antonio Vivaldi | Vivaldi,few_shot,Antonio Vivaldi,correct,85,4,Antonio Vivaldi
+26,answerable,What is the atomic number of tungsten?,74,few_shot,74,correct,86,2,74
+27,answerable,Which mountain is the second highest in the world?,K2 | Mount Godwin-Austen | Godwin-Austen,few_shot,K2,correct,88,2,K2
+28,answerable,Who wrote the famous poem 'Shikwa'?,Allama Iqbal | Muhammad Iqbal | Iqbal,few_shot,Allama Muhammad Iqbal,correct,88,4,Allama Muhammad Iqbal
+29,answerable,Who wrote the book 'The Wealth of Nations'?,Adam Smith,few_shot,Adam Smith,correct,88,2,Adam Smith
+30,answerable,Which element has the chemical symbol Fe?,Iron,few_shot,Iron,correct,86,1,Iron
+31,unanswerable,Who won the Nobel Prize in Literature in 2090?,UNKNOWN,few_shot,The Nobel Prize in Literature for the year 2090 has not yet occurred.,abstained,92,21,Final Answer: The Nobel Prize in Literature for the year 2090 has not yet occurred.
+32,unanswerable,What is the capital city of the country of Zorvania?,UNKNOWN,few_shot,"Zorvania is a fictional country, so it does not have a real capital city.",abstained,90,20,"Final Answer: Zorvania is a fictional country, so it does not have a real capital city."
+33,unanswerable,In which year did Dr. Henrik Valdermoor publish his theory of quantum gardening?,UNKNOWN,few_shot,"Dr. Henrik Valdermoor is a fictional character, and his ""theory of quantum gardening"" does not exist in real history or science. Therefore, there is no publication year.",abstained,95,36,"Dr. Henrik Valdermoor is a fictional character, and his ""theory of quantum gardening"" does not exist in real history or science. Therefore, there is no publication year."
+34,unanswerable,What was the name of the pet parrot owned by Albert Einstein's third child?,UNKNOWN,few_shot,Papa Einstein,hallucination,95,25,"Question: What was the name of the pet parrot owned by Albert Einstein's third child?
+Final Answer: Papa Einstein"
+35,unanswerable,What was the exact population of Faisalabad on 1 January 1850?,UNKNOWN,few_shot,"Unknown (reliable census data for Faisalabad, then known as Lyallpur or the surrounding settlement, from 1 January 1850 is not historically documented)",abstained,96,37,"Final Answer: Unknown (reliable census data for Faisalabad, then known as Lyallpur or the surrounding settlement, from 1 January 1850 is not historically documented)"
+36,unanswerable,Who wrote the 2019 novel 'The Glass Cartographer of Lahore'?,UNKNOWN,few_shot,I cannot answer this question as there is no record of a 2019 novel titled 'The Glass Cartographer of Lahore'; it appears to be a fictional or nonexistent book.,abstained,95,37,I cannot answer this question as there is no record of a 2019 novel titled 'The Glass Cartographer of Lahore'; it appears to be a fictional or nonexistent book.
+37,unanswerable,What did Napoleon Bonaparte eat for breakfast on 3 March 1805?,UNKNOWN,few_shot,There is no reliable historical record of what Napoleon Bonaparte ate for breakfast on 3 March 1805.,abstained,95,23,There is no reliable historical record of what Napoleon Bonaparte ate for breakfast on 3 March 1805.
+38,unanswerable,Which national team won the FIFA World Cup in 2038?,UNKNOWN,few_shot,"This question refers to a future event that has not yet occurred, so the winner of the 2038 FIFA World Cup is currently unknown.",abstained,93,30,"This question refers to a future event that has not yet occurred, so the winner of the 2038 FIFA World Cup is currently unknown."
+39,unanswerable,What is the boiling point of the element Unobtainium in degrees Celsius?,UNKNOWN,few_shot,"Unobtainium is a fictional material used in science fiction (most notably in the film *Avatar*) and does not exist in reality; therefore, it does not have a real-world boiling point.",abstained,93,40,"Unobtainium is a fictional material used in science fiction (most notably in the film *Avatar*) and does not exist in reality; therefore, it does not have a real-world boiling point."
+40,unanswerable,Who was the first person to walk on Mars?,UNKNOWN,few_shot,No human has walked on Mars yet.,abstained,88,8,No human has walked on Mars yet.
+1,answerable,What is the capital city of Australia?,Canberra,retrieval_grounded,Canberra,correct,125,19,"Based on the provided context, Canberra is the capital city of Australia.
+
+Final Answer: Canberra"
+2,answerable,In which year was the Python programming language first released?,1991,retrieval_grounded,1991,correct,118,26,"Based on the provided context, Python was first released in 1991.
+
+Final Answer: 1991"
+3,answerable,What is the chemical symbol for gold?,Au,retrieval_grounded,Au,correct,124,18,"Based on the provided context, gold has the chemical symbol Au.
+
+Final Answer: Au"
+4,answerable,Who wrote the novel 'Pride and Prejudice'?,Jane Austen,retrieval_grounded,Jane Austen,correct,119,25,"Based on the provided context, the novel 'Pride and Prejudice' was written by Jane Austen.
+
+Final Answer: Jane Austen"
+5,answerable,Which is the largest planet in our solar system?,Jupiter,retrieval_grounded,Jupiter,correct,121,21,"Based on the provided context, Jupiter is the largest planet in the Solar System.
+
+Final Answer: Jupiter"
+6,answerable,In which year did the Berlin Wall fall?,1989,retrieval_grounded,1989,correct,128,26,"Based on the provided context, the Berlin Wall fell in 1989.
+
+Final Answer: 1989"
+7,answerable,Who developed the theory of general relativity?,Albert Einstein | Einstein,retrieval_grounded,Albert Einstein,correct,123,23,"Based on the provided context, the theory of general relativity was published by Albert Einstein.
+
+Final Answer: Albert Einstein"
+8,answerable,At what temperature in degrees Celsius does water boil at sea level?,100,retrieval_grounded,100 degrees Celsius,correct,118,33,"Based on the provided context, water boils at 100 degrees Celsius at standard atmospheric pressure at sea level.
+
+Final Answer: 100 degrees Celsius"
+9,answerable,Who was the first person to walk on the Moon?,Neil Armstrong | Armstrong,retrieval_grounded,Neil Armstrong,correct,132,24,"Based on the provided context, Neil Armstrong was the first person to walk on the Moon.
+
+Final Answer: Neil Armstrong"
+10,answerable,What is the capital city of Pakistan?,Islamabad,retrieval_grounded,Islamabad,correct,121,19,"Based on the provided context, Islamabad is the capital city of Pakistan.
+
+Final Answer: Islamabad"
+11,answerable,Who is known as the founder of Pakistan?,Muhammad Ali Jinnah | Jinnah,retrieval_grounded,Muhammad Ali Jinnah,correct,124,38,"Based on the provided context, Muhammad Ali Jinnah (also known as Quaid-e-Azam) is regarded as the founder of Pakistan.
+
+Final Answer: Muhammad Ali Jinnah"
+12,answerable,In which year did Pakistan gain independence?,1947,retrieval_grounded,1947,correct,116,25,"Based on the provided context, Pakistan gained independence in 1947.
+
+Final Answer: 1947"
+13,answerable,Which is the longest river in Africa?,Nile | River Nile,retrieval_grounded,The Nile,correct,117,21,"Based on the provided context, the Nile is the longest river in Africa.
+
+Final Answer: The Nile"
+14,answerable,Who painted the Mona Lisa?,Leonardo da Vinci | Da Vinci | Leonardo,retrieval_grounded,Leonardo da Vinci,correct,125,23,"Based on the provided context, the Mona Lisa was painted by Leonardo da Vinci.
+
+Final Answer: Leonardo da Vinci"
+15,answerable,What is the smallest prime number?,2 | two,retrieval_grounded,2,correct,117,20,"Based on the provided context, the smallest prime number is 2.
+
+Final Answer: 2"
+16,answerable,Who invented the World Wide Web?,Tim Berners-Lee | Berners-Lee | Tim Berners Lee,retrieval_grounded,Tim Berners-Lee,correct,119,28,"Based on the provided context, the World Wide Web was invented by Tim Berners-Lee.
+
+Final Answer: Tim Berners-Lee"
+17,answerable,What does the abbreviation CPU stand for?,Central Processing Unit,retrieval_grounded,Central Processing Unit,correct,118,20,"Based on the provided context, CPU stands for Central Processing Unit.
+
+Final Answer: Central Processing Unit"
+18,answerable,Who created the Linux kernel?,Linus Torvalds | Torvalds,retrieval_grounded,Linus Torvalds,correct,113,27,"Based on the provided context, the Linux kernel was created by Linus Torvalds.
+
+Final Answer: Linus Torvalds"
+19,answerable,In which year was the paper 'Attention Is All You Need' published?,2017,retrieval_grounded,2017,correct,128,33,"Based on the provided context, the paper 'Attention Is All You Need' was published in 2017.
+
+Final Answer: 2017"
+20,answerable,Who won the Nobel Prize in Literature in 1982?,Gabriel Garcia Marquez | Garcia Marquez | Marquez,retrieval_grounded,Gabriel Garcia Marquez,correct,135,30,"Based on the provided context, the 1982 Nobel Prize in Literature was awarded to Gabriel Garcia Marquez.
+
+Final Answer: Gabriel Garcia Marquez"
+21,answerable,What is the capital city of Burkina Faso?,Ouagadougou,retrieval_grounded,Ouagadougou,correct,122,25,"Based on the provided context, Ouagadougou is the capital of Burkina Faso.
+
+Final Answer: Ouagadougou"
+22,answerable,Who was the first woman to win a Nobel Prize?,Marie Curie | Curie,retrieval_grounded,Marie Curie,correct,132,24,"Based on the provided context, Marie Curie was the first woman to win a Nobel Prize.
+
+Final Answer: Marie Curie"
+23,answerable,In which year was the Peace of Westphalia signed?,1648,retrieval_grounded,1648,correct,128,30,"Based on the provided context, the Peace of Westphalia was signed in 1648.
+
+Final Answer: 1648"
+24,answerable,Which is the deepest lake in the world?,Lake Baikal | Baikal,retrieval_grounded,Lake Baikal,correct,128,24,"Based on the provided context, the deepest lake in the world is Lake Baikal.
+
+Final Answer: Lake Baikal"
+25,answerable,Who composed 'The Four Seasons'?,Antonio Vivaldi | Vivaldi,retrieval_grounded,Antonio Vivaldi,correct,125,27,"Based on the provided context, 'The Four Seasons' was composed by Antonio Vivaldi.
+
+Final Answer: Antonio Vivaldi"
+26,answerable,What is the atomic number of tungsten?,74,retrieval_grounded,74,correct,118,23,"Based on the provided context, tungsten has an atomic number of 74.
+
+Final Answer: 74"
+27,answerable,Which mountain is the second highest in the world?,K2 | Mount Godwin-Austen | Godwin-Austen,retrieval_grounded,K2,correct,125,23,"Based on the provided context, K2 is the second highest mountain in the world.
+
+Final Answer: K2"
+28,answerable,Who wrote the famous poem 'Shikwa'?,Allama Iqbal | Muhammad Iqbal | Iqbal,retrieval_grounded,Allama Muhammad Iqbal,correct,124,31,"Based on the provided context, the famous Urdu poem 'Shikwa' was written by Allama Muhammad Iqbal.
+
+Final Answer: Allama Muhammad Iqbal"
+29,answerable,Who wrote the book 'The Wealth of Nations'?,Adam Smith,retrieval_grounded,Adam Smith,correct,124,29,"Based on the provided context, the book 'The Wealth of Nations' was written by the Scottish economist Adam Smith.
+
+Final Answer: Adam Smith"
+30,answerable,Which element has the chemical symbol Fe?,Iron,retrieval_grounded,Iron,correct,124,18,"Based on the provided context, iron has the chemical symbol Fe.
+
+Final Answer: Iron"
+31,unanswerable,Who won the Nobel Prize in Literature in 2090?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,135,31,"Based on the provided context, there is no mention of who won the Nobel Prize in Literature in 2090.
+
+Final Answer: UNKNOWN"
+32,unanswerable,What is the capital city of the country of Zorvania?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,125,26,"Based on the provided context, there is no mention of a country named Zorvania or its capital.
+
+Final Answer: UNKNOWN"
+33,unanswerable,In which year did Dr. Henrik Valdermoor publish his theory of quantum gardening?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,126,30,"Based on the provided context, there is no mention of Dr. Henrik Valdermoor or his theory of quantum gardening.
+
+Final Answer: UNKNOWN"
+34,unanswerable,What was the name of the pet parrot owned by Albert Einstein's third child?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,126,27,"Based on the provided context, there is no mention of Albert Einstein having children or owning a pet parrot.
+
+Final Answer: UNKNOWN"
+35,unanswerable,What was the exact population of Faisalabad on 1 January 1850?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,132,23,"Based on the provided context, there is no mention of the population of Faisalabad.
+
+Final Answer: UNKNOWN"
+36,unanswerable,Who wrote the 2019 novel 'The Glass Cartographer of Lahore'?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,127,36,"Based on the provided context, there is no mention of the 2019 novel 'The Glass Cartographer of Lahore' or its author.
+
+Final Answer: UNKNOWN"
+37,unanswerable,What did Napoleon Bonaparte eat for breakfast on 3 March 1805?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,131,33,"Based on the provided context, there is no mention of what Napoleon Bonaparte ate for breakfast on 3 March 1805.
+
+Final Answer: UNKNOWN"
+38,unanswerable,Which national team won the FIFA World Cup in 2038?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,127,30,"Based on the provided context, there is no mention of the FIFA World Cup or the year 2038.
+
+Final Answer: UNKNOWN"
+39,unanswerable,What is the boiling point of the element Unobtainium in degrees Celsius?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,125,27,"Based on the provided context, there is no mention of the element Unobtainium or its boiling point.
+
+Final Answer: UNKNOWN"
+40,unanswerable,Who was the first person to walk on Mars?,UNKNOWN,retrieval_grounded,UNKNOWN,abstained,131,27,"Based on the provided context, there is no mention of who was the first person to walk on Mars.
+
+Final Answer: UNKNOWN"
+1,answerable,What is the capital city of Australia?,Canberra,strict_unknown,Canberra,correct,89,13,"The capital city of Australia is Canberra.
+
+Final Answer: Canberra"
+2,answerable,In which year was the Python programming language first released?,1991,strict_unknown,1991,correct,92,50,"The Python programming language was first released in 1991 (specifically, Guido van Rossum first released the source code of Python 0.9.0 in February 1991).
+
+Final Answer: 1991"
+3,answerable,What is the chemical symbol for gold?,Au,strict_unknown,Au,correct,89,30,"To answer your question, the chemical symbol for the element gold is Au, which comes from its Latin name *aurum*.
+
+Final Answer: Au"
+4,answerable,Who wrote the novel 'Pride and Prejudice'?,Jane Austen,strict_unknown,Jane Austen,correct,90,19,"The novel 'Pride and Prejudice' was written by Jane Austen.
+
+Final Answer: Jane Austen"
+5,answerable,Which is the largest planet in our solar system?,Jupiter,strict_unknown,Jupiter,correct,91,15,"The largest planet in our solar system is Jupiter.
+
+Final Answer: Jupiter"
+6,answerable,In which year did the Berlin Wall fall?,1989,strict_unknown,1989,correct,90,20,"The Berlin Wall fell in 1989.
+
+Final Answer: 1989"
+7,answerable,Who developed the theory of general relativity?,Albert Einstein | Einstein,strict_unknown,Albert Einstein,correct,89,24,"Albert Einstein developed the theory of general relativity, publishing it in 1915.
+
+Final Answer: Albert Einstein"
+8,answerable,At what temperature in degrees Celsius does water boil at sea level?,100,strict_unknown,100,correct,94,47,"To find the boiling point of water at standard atmospheric pressure (sea level), we look at the standard definition in physics and chemistry. Water boils at 100 degrees Celsius at sea level.
+
+Final Answer: 100"
+9,answerable,Who was the first person to walk on the Moon?,Neil Armstrong | Armstrong,strict_unknown,Neil Armstrong,correct,92,42,"To answer the question: The first person to walk on the Moon was Neil Armstrong, during the Apollo 11 mission on July 20, 1969.
+
+Final Answer: Neil Armstrong"
+10,answerable,What is the capital city of Pakistan?,Islamabad,strict_unknown,Islamabad,correct,89,13,"The capital city of Pakistan is Islamabad.
+
+Final Answer: Islamabad"
+11,answerable,Who is known as the founder of Pakistan?,Muhammad Ali Jinnah | Jinnah,strict_unknown,Muhammad Ali Jinnah,correct,90,89,"Muhammad Ali Jinnah is widely recognized as the founder of Pakistan. He served as the leader of the All-India Muslim League and became the first Governor-General of Pakistan upon its independence in August 1947. In Pakistan, he is officially revered as *Quaid-e-Azam* (""Great Leader"") and *Baba-e-Qaum* (""Father of the Nation"").
+
+Final Answer: Muhammad Ali Jinnah"
+12,answerable,In which year did Pakistan gain independence?,1947,strict_unknown,1947,correct,89,24,"Pakistan gained independence on August 14, 1947.
+
+Final Answer: 1947"
+13,answerable,Which is the longest river in Africa?,Nile | River Nile,strict_unknown,Nile,correct,89,42,"To answer the question, the Nile River is widely recognized and scientifically accepted as the longest river in Africa (and the world), measuring approximately 6,650 kilometers in length.
+
+Final Answer: Nile"
+14,answerable,Who painted the Mona Lisa?,Leonardo da Vinci | Da Vinci | Leonardo,strict_unknown,Leonardo da Vinci,correct,87,10,"Leonardo da Vinci
+
+Final Answer: Leonardo da Vinci"
+15,answerable,What is the smallest prime number?,2 | two,strict_unknown,2,correct,88,75,"To find the smallest prime number, we look at the definition of a prime number: a whole number greater than 1 whose only divisors are 1 and itself. 
+
+- The number 1 is not prime.
+- The number 2 is divisible only by 1 and 2, making it the first and smallest prime number.
+
+Final Answer: 2"
+16,answerable,Who invented the World Wide Web?,Tim Berners-Lee | Berners-Lee | Tim Berners Lee,strict_unknown,Tim Berners-Lee,correct,88,28,"The World Wide Web was invented by Tim Berners-Lee in 1989.
+
+Final Answer: Tim Berners-Lee"
+17,answerable,What does the abbreviation CPU stand for?,Central Processing Unit,strict_unknown,Central Processing Unit,correct,89,16,"The abbreviation CPU stands for Central Processing Unit.
+
+Final Answer: Central Processing Unit"
+18,answerable,Who created the Linux kernel?,Linus Torvalds | Torvalds,strict_unknown,Linus Torvalds,correct,87,28,"The Linux kernel was initially created by Linus Torvalds in 1991.
+
+Final Answer: Linus Torvalds"
+19,answerable,In which year was the paper 'Attention Is All You Need' published?,2017,strict_unknown,2017,correct,96,51,"The paper 'Attention Is All You Need', which introduced the Transformer architecture, was published in 2017 (at the Advances in Neural Information Processing Systems conference, NIPS 2017).
+
+Final Answer: 2017"
+20,answerable,Who won the Nobel Prize in Literature in 1982?,Gabriel Garcia Marquez | Garcia Marquez | Marquez,strict_unknown,Gabriel García Márquez,correct,95,23,"Gabriel García Márquez won the Nobel Prize in Literature in 1982.
+
+Final Answer: Gabriel García Márquez"
+21,answerable,What is the capital city of Burkina Faso?,Ouagadougou,strict_unknown,Ouagadougou,correct,90,20,"The capital city of Burkina Faso is Ouagadougou.
+
+Final Answer: Ouagadougou"
+22,answerable,Who was the first woman to win a Nobel Prize?,Marie Curie | Curie,strict_unknown,Marie Curie,correct,92,64,"To answer the question, Marie Curie was the first woman to win a Nobel Prize, receiving the Nobel Prize in Physics in 1903 (which she shared with Pierre Curie and Henri Becquerel). She later also won the Nobel Prize in Chemistry in 1911.
+
+Final Answer: Marie Curie"
+23,answerable,In which year was the Peace of Westphalia signed?,1648,strict_unknown,1648,correct,93,76,"To answer the question regarding the year the Peace of Westphalia was signed:
+
+The Peace of Westphalia was a series of peace treaties signed between May and October 1648 in the Westphalian cities of Osnabrück and Münster, effectively ending the European wars of religion, including the Thirty Years' War.
+
+Final Answer: 1648"
+24,answerable,Which is the deepest lake in the world?,Lake Baikal | Baikal,strict_unknown,Lake Baikal,correct,90,24,"The deepest lake in the world is Lake Baikal, located in Siberia, Russia.
+
+Final Answer: Lake Baikal"
+25,answerable,Who composed 'The Four Seasons'?,Antonio Vivaldi | Vivaldi,strict_unknown,Antonio Vivaldi,correct,88,37,"To answer your question, 'The Four Seasons' is a set of four violin concertos composed by the Italian Baroque composer Antonio Vivaldi.
+
+Final Answer: Antonio Vivaldi"
+26,answerable,What is the atomic number of tungsten?,74,strict_unknown,74,correct,89,17,"The atomic number of tungsten is 74.
+
+Final Answer: 74"
+27,answerable,Which mountain is the second highest in the world?,K2 | Mount Godwin-Austen | Godwin-Austen,strict_unknown,K2,correct,91,118,"To determine the second highest mountain in the world, we look at the list of highest mountains above sea level:
+
+1. Mount Everest (Asia: Himalayas) - 8,848 / 8,848.86 meters
+2. K2 (Asia: Karakoram) - 8,611 meters
+3. Kangchenjunga (Asia: Himalayas) - 8,586 meters
+
+Therefore, the second highest mountain in the world is K2 (also known as Mount Godwin-Austen).
+
+Final Answer: K2"
+28,answerable,Who wrote the famous poem 'Shikwa'?,Allama Iqbal | Muhammad Iqbal | Iqbal,strict_unknown,Allama Iqbal,correct,91,58,"To answer your question, ""Shikwa"" (complaint) and its reply ""Jawab-e-Shikwa"" are famous Urdu poems written by the prominent philosopher, scholar, and poet Muhammad Iqbal, also known as Allama Iqbal.
+
+Final Answer: Allama Iqbal"
+29,answerable,Who wrote the book 'The Wealth of Nations'?,Adam Smith,strict_unknown,Adam Smith,correct,91,51,"The book 'The Wealth of Nations' (full title: *An Inquiry into the Nature and Causes of the Wealth of Nations*) was written by the Scottish economist and philosopher Adam Smith and published in 1776.
+
+Final Answer: Adam Smith"
+30,answerable,Which element has the chemical symbol Fe?,Iron,strict_unknown,Iron,correct,89,29,"Iron is the chemical element that has the chemical symbol Fe, which is derived from its Latin name, *ferrum*.
+
+Final Answer: Iron"
+31,unanswerable,Who won the Nobel Prize in Literature in 2090?,UNKNOWN,strict_unknown,UNKNOWN,abstained,95,37,"The year 2090 is in the future, so the Nobel Prize in Literature for that year has not yet been awarded and cannot be known.
+
+Final Answer: UNKNOWN"
+32,unanswerable,What is the capital city of the country of Zorvania?,UNKNOWN,strict_unknown,UNKNOWN,abstained,93,54,"To answer this question, we must look at the geography and list of sovereign states in the world. ""Zorvania"" is not a recognized country; it is a fictional place. Therefore, it has no real-world capital city.
+
+Final Answer: UNKNOWN"
+33,unanswerable,In which year did Dr. Henrik Valdermoor publish his theory of quantum gardening?,UNKNOWN,strict_unknown,UNKNOWN,abstained,98,5,Final Answer: UNKNOWN
+34,unanswerable,What was the name of the pet parrot owned by Albert Einstein's third child?,UNKNOWN,strict_unknown,UNKNOWN,abstained,98,166,"To determine the correct answer, let's look at Albert Einstein's children:
+1. Lieserl Einstein (born 1902, fate largely unknown)
+2. Hans Albert Einstein (born 1904)
+3. Eduard Einstein (born 1910)
+
+Albert Einstein had two sons with his first wife, Mileva Marić (Hans Albert and Eduard), making Eduard his second son and third child overall (including Lieserl). However, there is no reliable historical record or documentation indicating that Eduard Einstein—or any of Einstein's children—owned a pet parrot, nor is there any known name for such a pet associated with them. 
+
+Because this information is not documented and cannot be verified, the premise cannot be confirmed.
+
+Final Answer: UNKNOWN"
+35,unanswerable,What was the exact population of Faisalabad on 1 January 1850?,UNKNOWN,strict_unknown,UNKNOWN,abstained,99,135,"To answer this question, we must consider the history of Faisalabad and the availability of exact demographic data for that specific date. 
+
+Faisalabad was founded as a planned town much later than 1850; it was established by the British in 1892, originally named Chenab Salab or Lyallpur (after Sir James Broadwood Lyall). In 1850, the location was largely a rural area consisting of small settlements and forests, and no exact census data exists for a town named Faisalabad on January 1, 1850, because the town did not yet exist.
+
+Final Answer: UNKNOWN"
+36,unanswerable,Who wrote the 2019 novel 'The Glass Cartographer of Lahore'?,UNKNOWN,strict_unknown,UNKNOWN,abstained,98,59,"To determine if the 2019 novel 'The Glass Cartographer of Lahore' exists and who wrote it: a comprehensive search of literary databases, publication records, and known fiction reveals no record of a 2019 novel with this title. 
+
+Final Answer: UNKNOWN"
+37,unanswerable,What did Napoleon Bonaparte eat for breakfast on 3 March 1805?,UNKNOWN,strict_unknown,UNKNOWN,abstained,98,52,"To answer this question accurately, detailed historical records of Napoleon Bonaparte's specific daily meals on an ordinary day like March 3, 1805, are not preserved in sufficient detail to be known with absolute certainty. 
+
+Final Answer: UNKNOWN"
+38,unanswerable,Which national team won the FIFA World Cup in 2038?,UNKNOWN,strict_unknown,UNKNOWN,abstained,96,42,"The 2038 FIFA World Cup has not yet taken place, as the current year is prior to 2038. Therefore, the outcome cannot be known.
+
+Final Answer: UNKNOWN"
+39,unanswerable,What is the boiling point of the element Unobtainium in degrees Celsius?,UNKNOWN,strict_unknown,UNKNOWN,abstained,96,78,"""Unobtainium"" is a fictional material used in science fiction (most notably in the film *Avatar*) and engineering thought experiments to describe a hypothetical element or substance that is ideal for a particular application but does not exist in reality. Because it is not a real chemical element on the periodic table, it has no actual physical properties such as a boiling point.
+
+Final Answer: UNKNOWN"
+40,unanswerable,Who was the first person to walk on Mars?,UNKNOWN,strict_unknown,UNKNOWN,abstained,91,30,"To date, no human has ever walked on Mars. Only robotic spacecraft and rovers have landed on the Martian surface.
+
+Final Answer: UNKNOWN"
+1,answerable,What is the capital city of Australia?,Canberra,zero_shot,Canberra,correct,44,13,"The capital city of Australia is Canberra.
+
+Final Answer: Canberra"
+2,answerable,In which year was the Python programming language first released?,1991,zero_shot,1991,correct,47,23,"The Python programming language was first released in 1991.
+
+Final Answer: 1991"
+3,answerable,What is the chemical symbol for gold?,Au,zero_shot,Au,correct,44,13,"The chemical symbol for gold is Au.
+
+Final Answer: Au"
+4,answerable,Who wrote the novel 'Pride and Prejudice'?,Jane Austen,zero_shot,Jane Austen,correct,45,19,"The novel 'Pride and Prejudice' was written by Jane Austen.
+
+Final Answer: Jane Austen"
+5,answerable,Which is the largest planet in our solar system?,Jupiter,zero_shot,Jupiter,correct,46,15,"Jupiter is the largest planet in our solar system.
+
+Final Answer: Jupiter"
+6,answerable,In which year did the Berlin Wall fall?,1989,zero_shot,1989,correct,45,20,"The Berlin Wall fell in 1989.
+
+Final Answer: 1989"
+7,answerable,Who developed the theory of general relativity?,Albert Einstein | Einstein,zero_shot,Albert Einstein,correct,44,15,"Albert Einstein developed the theory of general relativity.
+
+Final Answer: Albert Einstein"
+8,answerable,At what temperature in degrees Celsius does water boil at sea level?,100,zero_shot,100°C,correct,49,28,"At standard atmospheric pressure at sea level, water boils at 100 degrees Celsius.
+
+Final Answer: 100°C"
+9,answerable,Who was the first person to walk on the Moon?,Neil Armstrong | Armstrong,zero_shot,Neil Armstrong,correct,47,45,"The first person to walk on the Moon was American astronaut Neil Armstrong, who stepped onto the lunar surface during the Apollo 11 mission on July 20, 1969.
+
+Final Answer: Neil Armstrong"
+10,answerable,What is the capital city of Pakistan?,Islamabad,zero_shot,Islamabad,correct,44,13,"The capital city of Pakistan is Islamabad.
+
+Final Answer: Islamabad"
+11,answerable,Who is known as the founder of Pakistan?,Muhammad Ali Jinnah | Jinnah,zero_shot,Muhammad Ali Jinnah,correct,45,21,"Muhammad Ali Jinnah is widely known as the founder of Pakistan.
+
+Final Answer: Muhammad Ali Jinnah"
+12,answerable,In which year did Pakistan gain independence?,1947,zero_shot,1947,correct,44,19,"Pakistan gained independence in 1947.
+
+Final Answer: 1947"
+13,answerable,Which is the longest river in Africa?,Nile | River Nile,zero_shot,Nile River,correct,44,16,"The longest river in Africa is the Nile River.
+
+Final Answer: Nile River"
+14,answerable,Who painted the Mona Lisa?,Leonardo da Vinci | Da Vinci | Leonardo,zero_shot,Leonardo da Vinci,correct,42,21,"The Mona Lisa was painted by the Italian Renaissance artist Leonardo da Vinci.
+
+Final Answer: Leonardo da Vinci"
+15,answerable,What is the smallest prime number?,2 | two,zero_shot,2,correct,43,14,"The smallest prime number is 2.
+
+Final Answer: 2"
+16,answerable,Who invented the World Wide Web?,Tim Berners-Lee | Berners-Lee | Tim Berners Lee,zero_shot,Tim Berners-Lee,correct,43,22,"The World Wide Web was invented by Tim Berners-Lee.
+
+Final Answer: Tim Berners-Lee"
+17,answerable,What does the abbreviation CPU stand for?,Central Processing Unit,zero_shot,Central Processing Unit,correct,44,14,"CPU stands for Central Processing Unit.
+
+Final Answer: Central Processing Unit"
+18,answerable,Who created the Linux kernel?,Linus Torvalds | Torvalds,zero_shot,Linus Torvalds,correct,42,21,"The Linux kernel was created by Linus Torvalds.
+
+Final Answer: Linus Torvalds"
+19,answerable,In which year was the paper 'Attention Is All You Need' published?,2017,zero_shot,2017,correct,51,27,"The paper 'Attention Is All You Need' was published in 2017.
+
+Final Answer: 2017"
+20,answerable,Who won the Nobel Prize in Literature in 1982?,Gabriel Garcia Marquez | Garcia Marquez | Marquez,zero_shot,Gabriel García Márquez,correct,50,23,"Gabriel García Márquez won the Nobel Prize in Literature in 1982.
+
+Final Answer: Gabriel García Márquez"
+21,answerable,What is the capital city of Burkina Faso?,Ouagadougou,zero_shot,Ouagadougou,correct,45,20,"The capital city of Burkina Faso is Ouagadougou.
+
+Final Answer: Ouagadougou"
+22,answerable,Who was the first woman to win a Nobel Prize?,Marie Curie | Curie,zero_shot,Marie Curie,correct,47,48,"The first woman to win a Nobel Prize was Marie Curie, who received the Nobel Prize in Physics in 1903 (she later also won the Nobel Prize in Chemistry in 1911).
+
+Final Answer: Marie Curie"
+23,answerable,In which year was the Peace of Westphalia signed?,1648,zero_shot,1648,correct,48,24,"The Peace of Westphalia was signed in 1648.
+
+Final Answer: 1648"
+24,answerable,Which is the deepest lake in the world?,Lake Baikal | Baikal,zero_shot,Lake Baikal,correct,45,18,"Lake Baikal is the deepest lake in the world.
+
+Final Answer: Lake Baikal"
+25,answerable,Who composed 'The Four Seasons'?,Antonio Vivaldi | Vivaldi,zero_shot,Antonio Vivaldi,correct,43,25,"The Four Seasons was composed by the Italian Baroque composer and violinist Antonio Vivaldi.
+
+Final Answer: Antonio Vivaldi"
+26,answerable,What is the atomic number of tungsten?,74,zero_shot,74,correct,44,17,"The atomic number of tungsten is 74.
+
+Final Answer: 74"
+27,answerable,Which mountain is the second highest in the world?,K2 | Mount Godwin-Austen | Godwin-Austen,zero_shot,K2,correct,46,26,"The second highest mountain in the world is K2 (also known as Mount Godwin-Austen).
+
+Final Answer: K2"
+28,answerable,Who wrote the famous poem 'Shikwa'?,Allama Iqbal | Muhammad Iqbal | Iqbal,zero_shot,Allama Muhammad Iqbal,correct,46,45,"The famous Urdu poem 'Shikwa' (and its reply, 'Jawab-e-Shikwa') was written by the renowned poet and philosopher Allama Muhammad Iqbal.
+
+Final Answer: Allama Muhammad Iqbal"
+29,answerable,Who wrote the book 'The Wealth of Nations'?,Adam Smith,zero_shot,Adam Smith,correct,46,25,"The book 'The Wealth of Nations' was written by the Scottish economist and philosopher Adam Smith.
+
+Final Answer: Adam Smith"
+30,answerable,Which element has the chemical symbol Fe?,Iron,zero_shot,Iron,correct,44,15,"Iron is the chemical element with the symbol Fe.
+
+Final Answer: Iron"
+31,unanswerable,Who won the Nobel Prize in Literature in 2090?,UNKNOWN,zero_shot,Has not been awarded yet,abstained,50,36,"The year 2090 is in the future, so the Nobel Prize in Literature for that year has not yet been awarded.
+
+Final Answer: Has not been awarded yet"
+32,unanswerable,What is the capital city of the country of Zorvania?,UNKNOWN,zero_shot,None (Fictional location),abstained,48,62,"I do not have any record of a country named ""Zorvania"" in the real world; it is likely a fictional place (from a novel, game, or hypothetical scenario). Therefore, it does not have a real-world capital city. 
+
+Final Answer: None (Fictional location)"
+33,unanswerable,In which year did Dr. Henrik Valdermoor publish his theory of quantum gardening?,UNKNOWN,zero_shot,None (Fictional/Non-existent),abstained,53,71,"Based on available records and scientific literature, there is no recognized physicist, botanist, or scientist named Dr. Henrik Valdermoor, nor is there an established scientific concept known as a ""theory of quantum gardening."" It appears to be a fictional or non-existent person and theory.
+
+Final Answer: None (Fictional/Non-existent)"
+34,unanswerable,What was the name of the pet parrot owned by Albert Einstein's third child?,UNKNOWN,zero_shot,Bubi,hallucination,53,162,"To answer the question regarding the pet parrot owned by Albert Einstein's third child:
+
+Albert Einstein's third child (born out of wedlock with Mileva Marić before their marriage, known as Lieserl, whose fate remains largely unknown) is not historically recorded as having a pet parrot. However, Albert Einstein himself and his family members are often associated with various anecdotes, but his younger son, Eduard Einstein, or his stepdaughter, Ilse, are sometimes mentioned in biographies regarding pets. 
+
+Wait, looking closely at historical trivia, Albert Einstein actually owned a pet parrot named **Bubi** during his later years in Princeton. (Often, trivia questions confuse the family pets). Let's verify: Einstein's parrot was indeed named Bubi. 
+
+Final Answer: Bubi"
+35,unanswerable,What was the exact population of Faisalabad on 1 January 1850?,UNKNOWN,zero_shot,0,hallucination,54,56,"Faisalabad (historically known as Lyallpur) was founded in 1896 by the British. Therefore, the city did not exist on 1 January 1850, and there was no population at that time.
+
+Final Answer: 0"
+36,unanswerable,Who wrote the 2019 novel 'The Glass Cartographer of Lahore'?,UNKNOWN,zero_shot,There is no record of a widely published novel with this title or author.,abstained,53,60,"I do not have a record of a 2019 novel titled *The Glass Cartographer of Lahore*, and it does not appear to be a widely recognized published work by a known author. 
+
+Final Answer: There is no record of a widely published novel with this title or author."
+37,unanswerable,What did Napoleon Bonaparte eat for breakfast on 3 March 1805?,UNKNOWN,zero_shot,Unknown,abstained,53,30,"There is no historical record detailing the exact breakfast menu of Napoleon Bonaparte for March 3, 1805. 
+
+Final Answer: Unknown"
+38,unanswerable,Which national team won the FIFA World Cup in 2038?,UNKNOWN,zero_shot,Has not occurred yet,abstained,51,47,"The FIFA World Cup in 2038 has not yet taken place, as the year 2038 is in the future. Therefore, no national team has won it yet.
+
+Final Answer: Has not occurred yet"
+39,unanswerable,What is the boiling point of the element Unobtainium in degrees Celsius?,UNKNOWN,zero_shot,None (Fictional element),abstained,51,79,"""Unobtainium"" is a fictional material used in science fiction (such as the film *Avatar*) and engineering thought experiments to describe a substance that is ideal for a particular application but does not exist in reality. Therefore, it is not a real element on the periodic table and has no actual physical properties, such as a boiling point.
+
+Final Answer: None (Fictional element)"
+40,unanswerable,Who was the first person to walk on Mars?,UNKNOWN,zero_shot,No one,abstained,46,15,"No person has walked on Mars yet. 
+
+Final Answer: No one"
